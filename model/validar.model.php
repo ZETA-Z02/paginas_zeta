@@ -7,7 +7,6 @@ Class Validar{
     function __construct(){
         
         $this->conn = new Conexion();
-        return $this->conn;
     }
     
     public function validar($email,$password){

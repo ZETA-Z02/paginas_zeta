@@ -7,31 +7,7 @@ $email=$_SESSION['EMAIL'];
 
 
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<!--html se dividi en 2 estiquetas principales HEAD Y BODY-->
-
-<head>
-    <meta charset="UTF-8">  
-    <!--Tipo de CODIFICACION de caracteres-->
-    <meta http-equiv="Keywords" content="nascar, carreras, Puno">
-    <!--Palabras CLAVE para las busquedas-->
-    <meta name="Descripción" content="Esta es una pagina ejemplo para detalles de nascar">
-    <!--Informacón general de la WEN-->
-    <title>INICIO</title>
-    <!--En el HEAD tambien se puede cargar elementos externos al HTML-->
-    <link rel="short icon" href="img/logo.jpg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/9a409a3028.js" crossorigin="anonymous"></script>
-    
-</head>
-
+<?php include "header.php";?>
 <body>
     <header>
         <div class="principal">
@@ -203,7 +179,7 @@ $email=$_SESSION['EMAIL'];
         </section>
 
       <section id="formulario">
-       <div >
+       <div>
             <div class="center">
                 <h4>INGRESE SUS DATOS</h4>
                     <form action="../controller/insertar.controller.php" method="post">
@@ -233,27 +209,14 @@ $email=$_SESSION['EMAIL'];
        </section><br><br>
 
        <section><?php include("reportes.php"); ?></section>
+
+
+       <a href="reporte.php">
+        <h2>subir reportes</h2>
+       </a>
        
     </main>
-    <footer>
-        <div class="contenedor-footer">
-            <div class="content-foo">
-                <h4>TELEFONO</h4>
-                <p>998777712</p>
-            </div>
-            <div class="content-foo">
-                <h4>EMAIL</h4>
-                <p>dota2jersson3@gmail.com</p>
-            </div>
-            <div class="content-foo">
-                <h4>DIRECCION</h4>
-                <p>AV.PALMERAS 322</p>
-            </div>
-        </div>
-        <h2 class="titulo-final">&copy; ZETA.ZETA | Jersson Pelayo</h2>
-    </footer>
 
-
-</body>
-
-</html>
+<?php
+include "footer.php";
+?>
