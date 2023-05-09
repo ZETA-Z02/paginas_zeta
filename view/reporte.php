@@ -81,7 +81,17 @@ $data = $reports->select();
             
         </div>
     </div>
+    <a href="principal.php" class = "btn btn-secondary">
+        volver a la pagina principal
+    </a>
+    <a href="../controller/salir.controller.php" class = "btn btn-danger">
+        salir
+    </a>
+
 </div>
 
 <?php 
 include("footer.php"); ?>
+
+//  2 vistas , en una login y registro a la vez.
+//  
