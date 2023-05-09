@@ -22,7 +22,7 @@ $email=$_SESSION['EMAIL'];
                 <a class="i1" href="#habilidades">portafolio</a>
                 <a class="i1" href="#experiencia">experiencia</a>
                 <a class="i1" href="#servicios">servicios</a>
-                <a class="i1" href="salida.php">salir</a>
+                <a class="i1" href="salida.php">salir/cerrar</a>
             </nav>
             <section class="textos-header">
                 <h1>Todo sobre <?php echo $email;?></h1>
