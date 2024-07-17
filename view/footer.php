@@ -7,7 +7,7 @@
             </div>
             <div class="content-foo">
                 <h4>EMAIL</h4>
-                <p>dota2jersson3@gmail.com</p>
+                <p>jersson.z032@gmail.com</p>
             </div>
             <div class="content-foo">
                 <h4>DIRECCION</h4>

@@ -25,6 +25,4 @@ if($contar['contar']>0){
     echo 'no tiene acceso <br>';
     header('location:../index.html');
 }
-
-
 ?>
